@@ -12,6 +12,8 @@ submit.addEventListener("click", function display() {
   const maleGender = document.getElementById("male");
   const femaleGender = document.getElementById("female");
   const display = document.getElementById("display");
+  const success = (display.style.background = "#2c990e");
+  const error = (display.style.background = "#ed4411");
   const submit = document.getElementById("submit");
   //Days Array
   const days = [
