@@ -12,21 +12,22 @@ body {
 }
 
 /* Header section */
+
 #top-bar {
-  display: flex;
-  align-items: center;
-  width: 100%;
   font-family: "ZCOOL XiaoWei";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-header img {
-  width: 100px;
-  margin: 2%;
+#top-bar img {
+  margin: 1%;
 }
 
 #hero {
   background: url("../img/hero-image.png") no-repeat center center/cover;
-  height: 35vh;
+  height: 40vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -34,7 +35,29 @@ header img {
   color: #000;
 }
 
-#hero p {
+/* Styles for the main section */
+main #main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 70%;
-  background: rgba(255, 255, 255, 0.5);
+  margin: 3% auto;
+}
+#main-section p {
+  width: 50%;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Form Styles */
+form {
+  width: 30%;
+}
+input[type="number"],
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
 }
