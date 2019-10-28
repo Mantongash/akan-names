@@ -62,5 +62,13 @@ submit.addEventListener("click", function() {
     display.style.background = "#2c990e";
   } else {
     display.innerHTML = `Hi ${name}, you were born on a ${days[dayOfBirth]} and your Akan name is ${femaleNames[dayOfBirth]} `;
+    display.style.background = "#2c990e";
   }
+});
+//Reset button funcionality
+const reset = document.getElementById("reset");
+
+reset.addEventListener("click", function() {
+  const display = document.getElementById("display");
+  display.style.opacity = "0";
 });
