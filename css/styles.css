@@ -95,3 +95,16 @@ blockquote {
 .author {
   color: #6b273b;
 }
+
+/* Footer styling */
+footer {
+  background: #eb094d;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
