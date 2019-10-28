@@ -61,3 +61,19 @@ input[type="text"] {
   display: block;
   width: 100%;
 }
+
+#submit {
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  display: block;
+  width: 30%;
+  margin-top: 20px;
+  padding: 4px;
+  text-align: center;
+}
+
+#submit:hover {
+  background: #000;
+  color: #fff;
+}
