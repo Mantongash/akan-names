@@ -41,7 +41,7 @@ main #main-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 80%;
   margin: 3% auto;
 }
 #main-section p {
@@ -63,7 +63,8 @@ input[type="text"] {
   width: 100%;
 }
 
-#submit {
+#submit,
+input[type="reset"] {
   text-decoration: none;
   color: #000;
   border: 1px solid #000;
@@ -72,6 +73,8 @@ input[type="text"] {
   margin-top: 20px;
   padding: 4px;
   text-align: center;
+  cursor: pointer;
+  background: transparent;
 }
 
 #submit:hover {
@@ -94,6 +97,11 @@ blockquote {
 
 .author {
   color: #6b273b;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Footer styling */
