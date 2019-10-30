@@ -64,7 +64,7 @@ input[type="text"] {
 }
 
 #submit,
-input[type="reset"] {
+#reset {
   text-decoration: none;
   color: #000;
   border: 1px solid #000;
