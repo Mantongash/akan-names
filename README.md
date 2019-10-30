@@ -15,6 +15,13 @@ The Akan are a community in Ghana. They name their newborns according to the day
 Anthony Ng'ang'a - Web Architect. I'm passionate about the web and love to create great things for it.
 
 ---
+### LIVE LINK
+
+---
+
+- The live link can be found at: https://mantongash.github.io/akan-names/#
+
+---
 
 ### BDD
 
@@ -27,6 +34,12 @@ Anthony Ng'ang'a - Web Architect. I'm passionate about the web and love to creat
 - A user then presses submit. The Akan name appears on top with a green background.
 
 ---
+
+### KNOWN BUGS
+
+---
+
+The reset button when pressed to clear the fields, it should also clear the display label, which it doesnt.
 
 ### TECHNOLOGIES USED
 
