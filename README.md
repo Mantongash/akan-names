@@ -16,6 +16,12 @@ Anthony Ng'ang'a - Web Architect. I'm passionate about the web and love to creat
 
 ---
 
+### LIVE LINK
+
+---
+
+- The live link can be found at: https://mantongash.github.io/akan-names/#
+
 ### BDD
 
 ---
